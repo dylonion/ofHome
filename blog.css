@@ -3,7 +3,8 @@
  */
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+  font-family: 'Open Sans', sans-serif;
   color: #555;
 }
 
@@ -14,7 +15,8 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #333;
 }
@@ -53,6 +55,16 @@ h6, .h6 {
 .blog-nav-item:focus {
   color: #fff;
   text-decoration: none;
+}
+
+.blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+}
+.blog-nav li a {
+    color: #fff;
 }
 
 /* Active state gets a caret at the bottom */

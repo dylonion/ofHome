@@ -1,0 +1,119 @@
+  body,html {
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    padding: 0;
+    margin:0;
+  }
+
+  ul {
+    margin:0;
+    padding:0;
+  }
+
+  p {
+    line-height: normal;
+    font-size: smaller;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    padding: 20px 40px;
+    line-height: 25px;
+  }
+
+  article h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .blueHighlight {
+    background-color: #1ccaf9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .blueTitle {
+    color:white;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 50px;
+    flex-basis: 30%;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .details div:not(.learnMore) {
+    margin:50px;
+  }
+
+  .details i {
+    font-size: 75px;
+    margin-left: 40%;
+    color: #f15a24;
+  }
+  .learnMore {
+    display: inline-block;
+    padding: 3px 8px;
+    border: 5px solid #53c8f6;
+  }
+
+  footer {
+    background-color: black;
+    padding: 20px 40px;
+    color: white;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  /*.footer-links div:first-of-type {
+    border-right: 1px solid white;
+  }*/
+
+  .footer-links li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  footer p {
+    font-size: x-small;
+  }
+
+  .header {
+    /*background-image: url("https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048");*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+/*      background: -webkit-gradient(linear, left, right, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgb(211, 222, 39)), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+*/      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    height: 200px;
+    text-align: right;
+    padding: 50px;
+  }
+
+  .header h1 {
+    margin:0;
+    font-size: 80px;
+    text-align: left;
+    line-height: 70px;
+    flex-basis: 30%;
+  }
