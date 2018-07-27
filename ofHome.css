@@ -183,3 +183,31 @@
   .people-content h3 {
     font-size: 25px;
   }
+
+  ol>li {
+    list-style: unset;
+    font-size: 25px;
+  }
+
+  li h3 {
+    color:#7ac943;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  li article {
+    font-size: initial;
+    padding: 10px 0;
+  }
+
+  .faq-header {
+    background-color: #7ac943;
+    color: white;
+    justify-content: flex-start;
+    padding: 50px;
+    height: unset;
+  }
+
+  .faq-header h1 {
+    margin-left: 13%;
+  }
