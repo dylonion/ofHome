@@ -211,3 +211,58 @@
   .faq-header h1 {
     margin-left: 13%;
   }
+
+  section {
+    margin: 20px 0;
+  }
+
+  section>h3 {
+    color:black;
+    font-weight: 900;
+    font-size: 1.4em;
+  }
+
+  .initiative-header {
+    justify-content: flex-start;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    /*background: -webkit-gradient(linear, left, right, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgb(211, 222, 39)), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;*/      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+
+  }
+
+  .initiative-overview {
+    background-color: #fcee21;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .initiative-overview li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    margin-bottom: 50px;
+  }
+
+  .initiative-overview li p {
+    margin: 3px 0;
+  }
+
+  .initiative-overview li h3 {
+    color:black;
+    font-size: 1.5em;
+  }
+
+  .initiative-overview li div:first-of-type {
+    font-size: 60px;
+  }
+
+  .initiative-overview li div:nth-child(2) {
+    flex-basis: 80%;
+  }
+  .initiative-overview ul {
+    max-width: 1000px;
+
+  }
