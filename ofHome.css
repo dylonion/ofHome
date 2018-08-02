@@ -25,6 +25,7 @@
     flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 50px;
   }
 
   article {
@@ -105,7 +106,7 @@
   }
 
   .header {
-    /*background-image: url("https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048");*/
+    background-image: url("https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048");
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -384,4 +385,109 @@
 .success-list li p {
   margin: 5px 0;
   font-size: .9em;
+}
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*-----------------------Donate-----------------*/
+
+.donate-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+  color: white;
+  height: 420px;
+}
+
+.donate-header h1 {
+  font-size: 6.5em;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  line-height: initial;
+}
+
+.donate-header h2 {
+  text-align: left;
+  font-size: 2.5em;
+  letter-spacing: -0.04em;
+  font-weight: 900;
+  line-height: 1em;
+  margin: 0;
+  paddin:0;
+}
+
+.give {
+  background-color: #3fa9f5;
+}
+.give-grid {
+  padding: 50px;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title-donate {
+  font-size: 2em;
+  line-height: normal;
+  color: #53abf2;
+  letter-spacing: .01em;
+  text-transform: capitalize;
+}
+
+.give-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.give-option p {
+  flex-grow: 1;
+}
+
+.give-grid h1 {
+  color: white;
+}
+
+.give-button {
+  border:4px solid white;
+  color: white;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-self: start;
+}
+
+.ways-to-give {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 50px;
+}
+
+.ways-to-give h1 {
+  font-weight: 900;
+}
+
+.ways-to-give li:not(:last-of-type) {
+  border-bottom: 1px solid;
+}
+
+.ways-to-give li {
+  margin-bottom: 35px;
+}
+
+.ways-to-give h3 {
+  color: #53abf2;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.ways-to-give p {
+  margin: 5px 0 30px 0;
+  font-size: .88em;
 }
