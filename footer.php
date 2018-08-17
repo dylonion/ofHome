@@ -1,14 +1,24 @@
     </div> <!-- /.container -->
-
-    <footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
-
+        <footer>
+          <div class="footer-links">
+            <div>
+              <ul>
+                <li>CONTACT US</li>
+                <li>FOLLOW US</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>FINANCIALS</li>
+                <li>PRIVACY POLICY</li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            ©Copyright 2018. Of Home, Family and Future is a 501(c)(3) organization.
+          </p>
+        </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <?php wp_footer(); ?>
   </body>
 </html>

@@ -4,6 +4,67 @@
     padding: 0;
   }
 
+/* Nav links */
+
+.blog-nav {
+  background-color: #1ccaf9;
+  text-align: right;
+  padding: 15px;
+  color:black;
+}
+
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+
+.blog-nav li:last-of-type a {
+  color: white;
+  border: 5px solid white;
+  padding: 3px 5px;
+}
+
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+}
+.blog-nav li a {
+    font-weight: 600;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
   .nodisplay {
     display: none;
   }
@@ -60,6 +121,8 @@
   .details {
     display: flex;
     flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
   .details div:not(.learnMore) {
@@ -160,6 +223,7 @@
     max-width: 1000px;
     padding: 0;
     justify-content: flex-start;
+    background-image: none;
   }
 
   .people-header h1 {
