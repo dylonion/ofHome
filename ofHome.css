@@ -194,6 +194,7 @@
 
   .about-header {
     background-color: #662d91;
+    background-image: none;
     color: white;
     flex-direction: column;
     text-align: left;
