@@ -25,6 +25,7 @@
   <div class="blog-masthead">
     <div class="container">
       <nav class="blog-nav">
+        <li class="page_item"><a href="valeriemendelson.net/wordpress/ofhome/">Home</a></li>
         <!-- <?php wp_list_pages( '&title_li=' ); ?> -->
         <?php wp_list_pages( array(
           title_li => '',

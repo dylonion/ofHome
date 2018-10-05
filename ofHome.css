@@ -39,6 +39,11 @@
     padding: 10px;
     font-weight: 500;
 }
+
+.blog-nav li:first-of-type {
+  float: left;
+}
+
 .blog-nav li a {
     font-weight: 600;
     font-size: 1.25em;
@@ -225,14 +230,15 @@
   .about-header-p {
     font-weight: 100;
     font-size: 1.3em;
+    align-self: normal;
   }
   .header p:first-of-type {
-    flex-basis: 20%;
+    /*flex-basis: 20%;
     font-size: 5em;
     padding: 0;
-    margin:0;
-/*    margin-right: 20px;
-*/  }
+    margin:0;*/
+    margin-right: 20px;
+  }
 
   .about-header {
     background-color: #8cc63f;
@@ -246,8 +252,21 @@
 
   .about-header div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     width: 100%;
+  }
+
+  .about-header img {
+    width: 80px;
+  }
+
+  .about-conclude {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-conclude img {
+    width: 110px;
   }
 
   .header h1 {

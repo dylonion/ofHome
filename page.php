@@ -1,10 +1,9 @@
 <?php /* Template Name: OfHomeAbout */ ?>
 <?php get_header(); ?>
-
   <div class="header about-header">
     <h1>Founder's Story</h1>
     <div>
-      <p>“</p>
+      <p><img src="<?php bloginfo('template_url'); ?>/assets/Founders_Quotation_White-01.svg" /></p>
       <p class="about-header-p">
         Let me start out by saying that I have never
         been through the “system.” I didn’t grow up
@@ -75,28 +74,19 @@
         donations can go straight to these individuals. We’re dedicating the rest of our lives to
         changing the world, one person at a time.
       </p>
-      <p>
-        As little as $25 can help us do that. Please donate.
-      </p>
-      <span style="color:#8cc63f; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
-      <br>
-      <span style="font-size:x-large">President and COO</span>
+      <div class="about-conclude">
+        <div>
+          <p style="margin-bottom: 40px">
+            As little as $25 can help us do that. Please donate.
+          </p>
+          <span style="color:#8cc63f; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
+          <br>
+          <span style="font-size:x-large">President and COO</span>
+        </div>
+        <div>
+          <img src="<?php bloginfo('template_url'); ?>/assets/Founders_Quotation_Green-01.svg" />
+        </div>
+    </div>
     </article>
   </div>
-  <footer>
-    <div class="footer-links">
-      <div>
-        <ul>
-          <li>CONTACT US</li>
-          <li>FOLLOW US</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li>FINANCIALS</li>
-          <li>PRIVACY POLICY</li>
-        </ul>
-      </div>
-    </div>
-    <?php echo display_images_from_media_library(); ?>
 <?php get_footer(); ?>
