@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Educational Mentoring Program | Of Home, Family & Future</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="ofHome.css">
-</head>
-<body>
+<?php /* Template Name: mentoring-initiative */ ?>
+<?php get_header(); ?>
   <div class="header edu-header">
     <h1>Educational Mentoring Program</h1>
   </div>
@@ -46,7 +38,7 @@
         <li>
           <div>
             <!-- <i class="fas fa-laptop"></i> -->
-            <img src="./assets/Mentoring_Computers-01.svg" />
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_Computers-01.svg" />
           </div>
           <div>
             <h3>COMPUTERS</h3>
@@ -54,14 +46,20 @@
           </div>
         </li>
         <li>
-          <div><i class="far fa-comments"></i></div>
+          <div>
+            <!-- <i class="far fa-comments"></i> -->
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_CellPhonePlans-01.svg" />
+          </div>
           <div>
             <h3>CELL PHONE & PHONE PLAN</h3>
             <p>Students need to be able to communicate regularly with their mentors.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-book-open"></i></div>
+          <div>
+            <!-- <i class="fas fa-book-open"></i> -->
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_Textbooks-01.svg" />
+          </div>
           <div>
             <h3>TEXTBOOKS</h3>
             <p>The cost of many textbooks exceeds the spending allowance from governmental agencies.
@@ -69,35 +67,50 @@
           </div>
         </li>
         <li>
-          <div><i class="fas fa-notes-medical"></i></div>
+          <div>
+            <!-- <i class="fas fa-notes-medical"></i> -->
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_Counseling-01.svg" />
+          </div>
           <div>
             <h3>COUNSELING</h3>
             <p>We provide funds to help pay for more intense and consistent counseling than is offered through the college health services.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-tshirt"></i></div>
+          <div>
+            <!-- <i class="fas fa-tshirt"></i> -->
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_Clothing-01.svg" />
+          </div>
           <div>
             <h3>CLOTHES</h3>
             <p>We provide grants for clothes to help the student fit in. Many of these students have their clothes provided by foster care agencies.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-subway"></i></div>
+          <div>
+            <!-- <i class="fas fa-subway"></i> -->
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_Transportation-01.svg" />
+          </div>
           <div>
             <h3>TRANSPORTATION</h3>
             <p>Subway passes and bus passes are provided to the students so they can easily get to school. We also provide funds for transportation home from state-wide out-of-town colleges.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-pencil-alt"></i></div>
+          <div>
+            <!-- <i class="fas fa-pencil-alt"></i></div> -->
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_SchoolSupplies-01.svg" />
+          </div>
           <div>
             <h3>SCHOOL SUPPLIES</h3>
             <p>We provide funds for specific computer programs, which are necessary for the student’s major area of study, as well as funds for art materials and other specialty requirements.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-money-bill-wave"></i></div>
+          <div>
+            <!-- <i class="fas fa-money-bill-wave"></i></div> -->
+            <img src="<?php bloginfo('template_url'); ?>/assets/Mentoring_SpendingMoney-01.svg" />
+          </div>
           <div>
             <h3>SPENDING MONEY</h3>
             <p>We provide a certain amount of spending money to cover other miscellaneous costs so that students can spend the majority of their time focusing on school.</p>
@@ -105,24 +118,4 @@
         </li>
       </ul>
     </div>
-  <footer>
-      <div class="footer-links">
-        <div>
-          <ul>
-            <li>CONTACT US</li>
-            <li>FOLLOW US</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>FINANCIALS</li>
-            <li>PRIVACY POLICY</li>
-          </ul>
-        </div>
-      </div>
-      <p>
-        ©Copyright 2018. Of Home, Family and Future is a 501(c)(3) organization.
-      </p>
-    </footer>
-</body>
-</html>
+<?php get_footer(); ?>
