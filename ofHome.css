@@ -176,6 +176,10 @@
     font-size: x-small;
   }
 
+  /*-----------------------------------------------*/
+  /*-----------------------Headers-----------------*/
+  /*-----------------------------------------------*/
+
   .main-header {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('./assets/Homepage_Pic.png') no-repeat;
     /*background: -webkit-gradient(linear, left, right, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgb(211, 222, 39)), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;*/      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
@@ -193,6 +197,29 @@
     align-items: center;
     text-align: right;
     padding: 100px 50px;
+  }
+
+  .edu-header {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    /*background: -webkit-gradient(linear, left, right, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgb(211, 222, 39)), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;*/      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.18) 35%, rgba(255, 255, 255, 0.99) 52%, rgba(224, 95, 87, 2) 100%), url('./assets/iStock-486076091.jpg') no-repeat;
+    background-size: contain;
+    background-position: inherit;
+  }
+
+  .donate-header {
+    background-image: url('./assets/iStock-911101108.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    color: white;
+    height: 420px;
   }
 
   .about-header-p {
@@ -367,16 +394,6 @@
 /*-----------------------------------------------*/
 /*------Educational mentoring initiative --------*/
 
-  .edu-header {
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    /*background: -webkit-gradient(linear, left, right, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgb(211, 222, 39)), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;*/      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.18) 35%, rgba(255, 255, 255, 0.99) 52%, rgba(224, 95, 87, 2) 100%), url('./assets/iStock-486076091.jpg') no-repeat;
-    background-size: contain;
-    background-position: inherit;
-  }
-
   .red-info {
     background-color: #ef494d;
     padding: 20px;
@@ -485,14 +502,7 @@
 /*-----------------------------------------------*/
 /*-----------------------Donate-----------------*/
 
-.donate-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: start;
-  color: white;
-  height: 420px;
-}
+
 
 .donate-header h1 {
   font-size: 6.5em;
