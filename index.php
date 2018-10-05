@@ -28,7 +28,8 @@
     </article>
     <article class="details">
       <div>
-        <i class="fas fa-graduation-cap"></i>
+        <!-- <i class="fas fa-graduation-cap"></i> -->
+        <div style="text-align: center;"><img style="width:120px;" src="<?php bloginfo('template_url'); ?>/assets/homepage_GraduationCap-01.svg" /></div>
         <h3>Educational Mentoring Program</h3>
         <p>
           The reality is only 2-11% of foster kids earn
@@ -42,7 +43,8 @@
         <div class="learnMore">Learn More</div>
       </div>
       <div>
-        <i class="far fa-handshake"></i>
+        <!-- <i class="far fa-handshake"></i> -->
+        <div style="text-align: center;"><img style="width:83px;" src="<?php bloginfo('template_url'); ?>/assets/homepage_handsShaking-01.svg" /></div>
         <h3>Domestic Violence Initiative</h3>
         <p>
           10 million children witness domestic violence

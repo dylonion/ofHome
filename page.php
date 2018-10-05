@@ -78,7 +78,7 @@
       <p>
         As little as $25 can help us do that. Please donate.
       </p>
-      <span style="color:#662d91; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
+      <span style="color:#8cc63f; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
       <br>
       <span style="font-size:x-large">President and COO</span>
     </article>
@@ -98,4 +98,5 @@
         </ul>
       </div>
     </div>
+    <?php echo display_images_from_media_library(); ?>
 <?php get_footer(); ?>
