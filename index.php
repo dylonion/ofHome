@@ -1,5 +1,19 @@
 <?php get_header(); ?>
-<div class="header main-header">
+<!-- <div class="header main-header">
+    <h1>Of Home, Family & Future</h1>
+  </div> -->
+  <div class="header main-header">
+    <ul class="oh-slideshow">
+      <li>
+        <span>Image 01</span>
+      </li>
+      <li>
+        <span>Image 02</span>
+      </li>
+      <li>
+        <span>Image 03</span>
+      </li>
+    </ul>
     <h1>Of Home, Family & Future</h1>
   </div>
   <div class="content">
