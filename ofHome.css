@@ -304,6 +304,21 @@
     margin: 100px 0 0 0;
   }
 
+  .testimonial-header {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(247,147,30) 100%), url('./assets/Testimonials_pic.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding: 100px 30px 30px 30px;
+    min-height: 300px;
+  }
+
+  .testimonial-header h1 {
+    font-size: 4em;
+    margin: 100px 0 0 0;
+    font-weight: 800;
+  }
+
   .about-header {
     background-color: #8cc63f;
     background-image: none;
@@ -689,4 +704,12 @@
 
 .news-content a {
   color: black;
+}
+
+.testimonial-content h3 {
+  color: #f7931e;
+}
+
+.testimonial-content i {
+  font-size: 2em;
 }
