@@ -4,5 +4,6 @@ $(function() {
     let newText = $(this).siblings('.hidden-story').text()
     let oldText = $(this).siblings('p').text()
     $(this).siblings('.hidden-story').toggleClass('nodisplay');
+    $(this).siblings('p').toggleClass('nodisplay')
   })
 })
