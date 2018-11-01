@@ -13,6 +13,11 @@
   color:black;
 }
 
+.blog-masthead {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .blog-nav-item {
   position: relative;
   display: inline-block;
@@ -53,6 +58,11 @@
 }
 .blog-nav li a:hover {
   color:white;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 /* Active state gets a caret at the bottom */
@@ -226,16 +236,16 @@
   }
 
   .oh-slideshow li:nth-child(1) span {
-      background-image: url('./assets/Homepage_Pic.png')
+      background-image: url('./assets/Homepage_Pic_Lowres.png')
   }
 
   .oh-slideshow li:nth-child(2) span {
-      background-image: url('./assets/Homepage_Pic2.jpg');
+      background-image: url('./assets/Homepage_Mentorship.png');
       animation-delay: 6s;
   }
 
   .oh-slideshow li:nth-child(3) span {
-      background-image: url('./assets/Homepage_Pic3.jpg');
+      background-image: url('./assets/Homepage_MotherSon.png');
       animation-delay: 12s;
   }
 
@@ -266,7 +276,8 @@
   }
 
   .donate-header {
-    background-image: url('./assets/iStock-911101108.jpg');
+   /* background-image: url('./assets/iStock-911101108.jpg');*/
+   background-image: url('./assets/Homepage_Pic_Lowres.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -537,14 +548,16 @@
 /*------Success Stories--------------------------*/
 
 .stories-header {
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('./assets/Success_stories_pic.jpg') no-repeat;
   /*background: -webkit-gradient(linear, left, right, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgb(211, 222, 39)), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;*/      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(247,147,30) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('./assets/Success_stories_pic.jpg') no-repeat;
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(224, 95, 87) 100%), url('./assets/Success_stories_pic.jpg') no-repeat;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(247,147,30) 100%), url('./assets/Success_stories_pic.jpg') no-repeat;
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
+  background-size: cover;
+  background-position: center;
 }
 
 .stories-header h1:first-of-type {
@@ -712,4 +725,9 @@
 
 .testimonial-content i {
   font-size: 2em;
+}
+
+.give a {
+  text-decoration: none;
+  color: inherit;
 }
