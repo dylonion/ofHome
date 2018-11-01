@@ -26,18 +26,37 @@
     <div class="container">
       <nav class="blog-nav">
         <li class="page_item"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/Home_icon_3.svg"/></a></li>
-        <!-- <?php wp_list_pages( '&title_li=' ); ?> -->
-        <?php wp_list_pages( array(
-          title_li => '',
-          sort_column => 'menu_order'
-        )); ?>
+        <li class="page_item">
+          <div class="dropdown">
+            <a href="<?php echo home_url(); ?>/about-us/">About Us</a>
+            <div class="dropdown-content">
+              <a href="<?php echo home_url(); ?>/about-us/">Founders Story</a>
+              <a href="<?php echo home_url(); ?>/board-members-executive-director/">Board Members & Executive Director</a>
+              <a href="<?php echo home_url(); ?>/faq/">Frequently Asked Questions</a>
+            </div>
+          </div>
+        </li>
+        <li class="page_item">
+          <div class="dropdown">
+            <a href="<?php echo home_url(); ?>/programs/">Programs</a>
+            <div class="dropdown-content">
+              <a href="<?php echo home_url(); ?>/programs/domestic-violence-initiative/">Domestic Violence Initiative</a>
+              <a href="<?php echo home_url(); ?>/programs/">Educational Mentoring Initiative</a>
+            </div>
+          </div>
+        </li>
+        <li class="page_item">
+          <div class="dropdown">
+            <a href="<?php echo home_url(); ?>/stories/">Stories</a>
+            <div class="dropdown-content">
+              <a href="<?php echo home_url(); ?>/stories/">Success Stories</a>
+              <a href="<?php echo home_url(); ?>/testimonials/">Testimonials</a>
+            </div>
+          </div>
+        </li>
+        <li class="page_item"><a href="<?php echo home_url(); ?>/news-media/">News/Media</a></li>
+        <li class="page_item"><a href="<?php echo home_url(); ?>/donate-give/">Donate/Give</a></li>
       </nav>
     </div>
   </div>
-
   <div class="container">
-
-    <!-- <div class="blog-header">
-      <h1 class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-      <p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
-    </div> -->

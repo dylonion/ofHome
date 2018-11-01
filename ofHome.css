@@ -31,6 +31,7 @@
 
 .blog-nav img {
   width: 50px;
+  vertical-align: top;
 }
 
 .blog-masthead {
@@ -67,6 +68,23 @@
 
 .blog-nav li:first-of-type {
   float: left;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .blog-nav li a {
