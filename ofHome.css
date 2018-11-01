@@ -2,9 +2,25 @@
     font-family: 'Open Sans', sans-serif;
     margin:0;
     padding: 0;
+    width: 100%;
+    height: 100%;
   }
 
 /* Nav links */
+  @media only screen and (max-width:1200px) {
+    h1 {
+      font-size: 4em!important;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .details {
+      flex-direction: column!important;
+    }
+    .details div:nth-child(2) {
+      margin: 0!important;
+    }
+  }
 
 .blog-nav {
   background-color: #1ccaf9;
@@ -236,16 +252,16 @@
   }
 
   .oh-slideshow li:nth-child(1) span {
-      background-image: url('./assets/Homepage_Pic_Lowres.png')
+      background-image: url('./assets/HomepageHeaders_WithGradients_CityGirl.png')
   }
 
   .oh-slideshow li:nth-child(2) span {
-      background-image: url('./assets/Homepage_Mentorship.png');
+      background-image: url('./assets/HomepageHeaders_WithGradients_Mentorship.png');
       animation-delay: 6s;
   }
 
   .oh-slideshow li:nth-child(3) span {
-      background-image: url('./assets/Homepage_MotherSon.png');
+      background-image: url('./assets/HomepageHeaders_WithGradients_MomSon.png');
       animation-delay: 12s;
   }
 
@@ -276,8 +292,8 @@
   }
 
   .donate-header {
-   /* background-image: url('./assets/iStock-911101108.jpg');*/
-   background-image: url('./assets/Homepage_Pic_Lowres.png');
+    background-image: url('./assets/iStock-911101108.jpg');
+   /*background-image: url('./assets/Homepage_Pic_Lowres.png');*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -303,16 +319,25 @@
   }
 
   .news-header {
-    padding: 100px 30px 30px 30px;
+    padding: 200px 0 50px 0;
     color: white;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.18)45%, rgba(154,0,91,.8) 100%), url('./assets/News_pic.jpg') no-repeat;
+    background-image: url('./assets/WhatsHappening_headerImage.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 
   .news-header h1 {
-    font-size: 4em;
-    margin: 100px 0 0 0;
+    font-size: 5.5em;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -4px;
+  }
+
+  .news-header h2 {
+    margin: 0;
+    padding: 0;
   }
 
   .testimonial-header {
@@ -466,6 +491,10 @@
     padding: 50px 0;
     display: flex;
     justify-content: center;
+  }
+
+  .initiative-overview img {
+    width: 85px;
   }
 
   .initiative-overview li {
