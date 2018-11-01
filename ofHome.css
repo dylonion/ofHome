@@ -770,6 +770,7 @@
 
 .testimonial-content i {
   font-size: 2em;
+  cursor: pointer;
 }
 
 .give a {

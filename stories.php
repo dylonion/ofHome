@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Success Stories | Of Home, Family & Future</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="ofHome.css">
-</head>
-<body>
-  <div class="header stories-header">
+<?php /* Template Name: Success Stories */ ?>
+<?php get_header(); ?>
+<div class="header stories-header">
     <h1><i class="far fa-star"></i></h1>
     <h1>Success Stories</h1>
   </div>
@@ -28,7 +20,7 @@
   <div class="content success-list" style="padding-top:25px">
     <ul>
       <li>
-        <img src="./assets/Shakeema-01.png">
+        <img src="<?php bloginfo('template_url'); ?>/assets/Shakeema-01.png">
         <div>
           <h3>SHAKEEMA</h3>
           <p>
@@ -51,7 +43,7 @@
         </div>
       </li>
       <li>
-        <img src="./assets/Isaac-01.png">
+        <img src="<?php bloginfo('template_url'); ?>/assets/Isaac-01.png">
         <div>
           <h3>ISAAC</h3>
           <p>
@@ -69,7 +61,7 @@
         </div>
       </li>
       <li>
-        <img src="./assets/Mirza-01.png">
+        <img src="<?php bloginfo('template_url'); ?>/assets/Mirza-01.png">
         <div>
           <h3>MIRZA</h3>
           <p>
@@ -93,7 +85,7 @@
         </div>
       </li>
       <li>
-        <img src="./assets/Marcus-01.png">
+        <img src="<?php bloginfo('template_url'); ?>/assets/Marcus-01.png">
         <div>
           <h3>MARCUS</h3>
           <p>
@@ -118,7 +110,7 @@
         </div>
       </li>
       <li>
-        <img src="./assets/Anthony-01.png">
+        <img src="<?php bloginfo('template_url'); ?>/assets/Anthony-01.png">
         <div>
           <h3>ANTHONY</h3>
           <p>
@@ -133,26 +125,6 @@
   <div class="red-info" id="blue-info" style="background-color:#3fa9f5">
     <h1>Domestic Violence Initiative</h1>
   </div>
-  <footer>
-      <div class="footer-links">
-        <div>
-          <ul>
-            <li>CONTACT US</li>
-            <li>FOLLOW US</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>FINANCIALS</li>
-            <li>PRIVACY POLICY</li>
-          </ul>
-        </div>
-      </div>
-      <p>
-        ©Copyright 2018. Of Home, Family and Future is a 501(c)(3) organization.
-      </p>
-    </footer>
-    <script src="jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="ofhome.js" type="text/javascript" charset="utf-8"></script>
-</body>
-</html>
+  <script src="<?php bloginfo('template_url'); ?>/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="<?php bloginfo('template_url'); ?>/ofhome.js" type="text/javascript" charset="utf-8"></script>
+<?php get_footer(); ?>
