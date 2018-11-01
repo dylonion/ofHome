@@ -1,18 +1,20 @@
 <?php /* Template Name: OfHomeAbout */ ?>
 <?php get_header(); ?>
-  <div class="header about-header">
-    <h1>Founder's Story</h1>
-    <div>
-      <p><img src="<?php bloginfo('template_url'); ?>/assets/Founders_Quotation_White-01.svg" /></p>
-      <p class="about-header-p">
-        Let me start out by saying that I have never
-        been through the “system.” I didn’t grow up
-        as a foster kid nor did I suffer from
-        domestic violence. Yet, I have spent my
-        entire professional life surrounded by
-        teenagers in foster care and women who
-        have suffered abuse.
-      </p>
+  <div class="about-header">
+    <div style="display:block; max-width: 80%; margin: 0 auto;">
+      <h1>Founders Story</h1>
+      <div>
+        <p><img src="<?php bloginfo('template_url'); ?>/assets/Founders_Quotation_White-01.svg" /></p>
+        <p class="about-header-p">
+          Let me start out by saying that I have never
+          been through the “system.” I didn’t grow up
+          as a foster kid nor did I suffer from
+          domestic violence. Yet, I have spent my
+          entire professional life surrounded by
+          teenagers in foster care and women who
+          have suffered abuse.
+        </p>
+      </div>
     </div>
   </div>
   <div class="content">
@@ -79,7 +81,7 @@
           <p style="margin-bottom: 40px">
             As little as $25 can help us do that. Please donate.
           </p>
-          <span style="color:#8cc63f; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
+          <span style="color:#662d91; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
           <br>
           <span style="font-size:x-large">President and COO</span>
         </div>
