@@ -48,7 +48,7 @@
         <li class="page_item">
           <div class="dropdown">
             <a href="<?php echo home_url(); ?>/stories/">Stories</a>
-            <div class="dropdown-content">
+            <div class="dropdown-content" id="stories-menu">
               <a href="<?php echo home_url(); ?>/stories/">Success Stories</a>
               <a href="<?php echo home_url(); ?>/testimonials/">Testimonials</a>
             </div>

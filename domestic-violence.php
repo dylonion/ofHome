@@ -13,7 +13,7 @@
         lives and those of their children.
       </p>
       <p>
-        In 2014, we launched The Harry and Carol Goodman Transformation2 Program in
+        In 2014, we launched The Harry and Carol Goodman Transformation<sup>2</sup> Program in
         collaboration with Sanctuary for Families, one of our partner agencies. By combining our
         strengths with Sanctuary, we can help more families achieve these goals over a shorter,
         more concentrated program period.
@@ -29,20 +29,20 @@
         provide these mothers the “extra” support needed to allow the transformation including:
         cell phones, computers, budgeting, credit counseling, and stipends for child care.
       </p>
-      <a href="">Click Here to view Success Stories</a>
+      <a href="<?php echo home_url(); ?>/stories/" style="color:#f7931e">Click Here to view Success Stories</a>
     </article>
   </div>
   <div class="initiative-overview">
       <ul>
         <li>
-          <div><i class="fas fa-laptop"></i></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/assets/DVI_Computers-01.svg" /></div>
           <div>
             <h3>COMPUTERS</h3>
             <p>We provide computers and relevant software so these moms have the technology necessary to succeed.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-cookie-bite"></i></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/assets/DVI_Childcare.svg" /></div>
           <div>
             <h3>CHILDCARE</h3>
             <p>Grants also help cover the cost of day care, after school care, and some additional babysitting.</p>
@@ -60,21 +60,21 @@
           </div>
         </li> -->
         <li>
-          <div><i class="fas fa-graduation-cap"></i></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/assets/DVI_GraduationCap_blue-01.svg" /></div>
           <div>
             <h3>EDUCATION</h3>
             <p>The program pays for much of the continuing education of the grant recipient.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-id-card"></i></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/assets/DVI_JobTraining-01.svg" /></div>
           <div>
             <h3>JOB TRAINING</h3>
             <p>We pay for job training and childcare costs related to that training.</p>
           </div>
         </li>
         <li>
-          <div><i class="fas fa-piggy-bank"></i></div>
+          <div><img src="<?php bloginfo('template_url'); ?>/assets/DVI_Financial-01.svg" /></div>
           <div>
             <h3>FINANCIAL COUNCELING</h3>
             <p>Our volunteers assist participants with budgeting and credit-repair.</p>

@@ -20,6 +20,43 @@
     .details div:nth-child(2) {
       margin: 0!important;
     }
+
+    h1 {
+      font-size: 2em!important;
+      font-weight: bold!important;
+      line-height: initial!important;
+      flex-basis: auto!important;
+    }
+
+    h2 {
+      font-size: 1em!important;
+      font-weight: bold!important;
+      line-height: initial!important;
+    }
+
+    .page-item {
+      font-weight: 100!important;
+      padding: 3px!important;
+    }
+
+    .blog-nav li a {
+      font-weight: 400!important;
+      font-size: 1em!important;
+    }
+    .blog-nav li:last-of-type a {
+      border: 2px solid white!important;
+      padding:2px 3px!important;
+    }
+    .blog-nav img {
+      width:25px!important;
+    }
+    #stories-menu {
+      left: -45px;
+    }
+    .success-list li {
+      align-items: center!important;
+      flex-direction: column!important;
+    }
   }
 
 .blog-nav {
@@ -78,13 +115,25 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #54c8f5;
   min-width: 160px;
-  z-index: 1;
+  z-index: 3;
+  text-align: left;
+  padding: 15px;
+  border-radius: 3px;
+  border: 3px solid white;
+
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.dropdown-content>a {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: capitalize!important;
+  letter-spacing: -1px;
 }
 
 .blog-nav li a {
@@ -172,7 +221,7 @@
     font-size: 46px;
     font-weight: 900;
     line-height: 50px;
-    flex-basis: 30%;
+    flex-basis: 40%;
   }
 
   .details {
@@ -203,6 +252,8 @@
     display: inline-block;
     padding: 3px 8px;
     border: 5px solid #53c8f6;
+    font-weight: 700;
+    color: black;
   }
 
   footer {
@@ -214,7 +265,13 @@
   .footer-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+  }
+
+  .footer-links i {
+    margin-right: 10px;
+    font-size: 1.8em;
+    vertical-align: middle;
   }
 
   /*.footer-links div:first-of-type {
@@ -227,6 +284,11 @@
   }
   footer p {
     font-size: x-small;
+  }
+
+  .footer-links a {
+    text-decoration: none;
+    color:inherit;
   }
 
   /*-----------------------------------------------*/
@@ -317,18 +379,20 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: start;
     color: white;
-    height: 420px;
+    padding: 250px 0 50px 0;
+  }
+
+  .donate-header div {
+    max-width: 80%;
+    margin: 0 auto;
   }
 
   .about-header-p {
     font-weight: 100;
     font-size: 1.3em;
     align-self: normal;
+    flex-basis: 90%;
   }
   .header p:first-of-type {
     /*flex-basis: 20%;
@@ -389,13 +453,14 @@
   }
 
   .testimonial-header h1 {
-    font-size: 4em;
+    font-size: 6.8em;
     margin: 100px 0 0 0;
     font-weight: 800;
+    letter-spacing: -.06em;
   }
 
   .about-header {
-    background-color: #662d91;
+    background-color: #8cc63f;
     background-image: none;
     color: white;
     flex-direction: column;
@@ -405,10 +470,15 @@
     padding-top:50px;
   }
 
+  .about-content a {
+    color: #8cc63f;
+  }
+
   .about-header div {
     display: flex;
     align-items: baseline;
     width: 100%;
+    justify-content: space-between;
   }
 
   .about-header h1 {
@@ -500,13 +570,18 @@
   .faq-header {
     background-color: #7ac943;
     color: white;
-    justify-content: flex-start;
-    padding: 50px;
-    height: unset;
+    padding: 50px 0 50px 0;
+  }
+
+  .faq-header div {
+    max-width: 80%;
+    margin: 0 auto;
   }
 
   .faq-header h1 {
-    margin-left: 13%;
+    margin: 0;
+    font-weight: 800;
+    font-size: 5em;
   }
 
   section {
@@ -525,12 +600,10 @@
 
   .initiative-header {
     justify-content: flex-start;
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    /*background: -webkit-gradient(linear, left, right, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgb(211, 222, 39)), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;*/      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgb(211, 222, 39) 100%), url('https://media.istockphoto.com/photos/successful-businesswoman-picture-id934181642?s=2048x2048') no-repeat;
-
+    background-image: url('./assets/DVI_headerImage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   .initiative-overview {
@@ -546,7 +619,7 @@
 
   .initiative-overview li {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: end;
     margin-bottom: 50px;
   }
@@ -604,7 +677,7 @@
 
   .red-info p {
     max-width: 1000px;
-    font-weight: 300;
+    /*font-weight: 300;*/
     font-size: 1.1em;
   }
 
@@ -638,6 +711,14 @@
   align-items: flex-start;
   padding: 50px;
 }
+.DVI li {
+  flex-direction: column!important;
+}
+
+.DVI p {
+  font-size: .9em;
+  line-height: 2em;
+}
 
 .success-list i {
   cursor: pointer;
@@ -666,17 +747,22 @@
 .success-list li p {
   margin: 5px 0;
   font-size: .9em;
+  line-height: 2em;
 }
 
 .success-list li div {
   font-size: .9em;
   margin: 5px 0;
+  line-height: 2em;
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*-----------------------Donate-----------------*/
 
 
+.ways-to-give a {
+  color: #53abf2;
+}
 
 .donate-header h1 {
   font-size: 6.5em;
@@ -687,13 +773,11 @@
 }
 
 .donate-header h2 {
-  text-align: left;
   font-size: 2.5em;
-  letter-spacing: -0.04em;
   font-weight: 900;
   line-height: 1em;
   margin: 0;
-  paddin:0;
+  padding:0;
 }
 
 .give {
@@ -795,3 +879,26 @@
   text-decoration: none;
   color: inherit;
 }
+
+/*Financials*/
+  .financials-header {
+    margin: 50px 0 0 0;
+  }
+
+  .financials-header div {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .financials-header h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .financial-content a {
+    display: block;
+    text-decoration: none;
+    color: #009dff;
+  }
+/*------------*/

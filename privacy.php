@@ -1,5 +1,10 @@
 <?php /* Template Name: Privacy Policy */ ?>
 <?php get_header(); ?>
+<div class="privacy-header" style="margin-top:50px;">
+  <div style="max-width: 80%; margin: 0 auto">
+    <h1 style="margin:0; font-size: 4em;">Privacy Policy</h1>
+  </div>
+</div>
 <div class="content">
   <article class="privacy-policy">
     <p>

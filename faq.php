@@ -1,7 +1,9 @@
 <?php /* Template Name: FAQ */ ?>
 <?php get_header(); ?>
-  <div class="header faq-header">
-    <h1>FAQ</h1>
+  <div class="faq-header">
+    <div>
+      <h1>FAQs</h1>
+    </div>
   </div>
   <div class="content">
     <ol>
@@ -27,7 +29,7 @@
               has a highly sensitive automatic fraud alert system, and it picks up any inconsistencies
               in these subjects.
             </p>
-            <p>There are different options for giving online. <a href="">See them here</a>.</p>
+            <p>There are different options for giving online. <a href="<?php echo home_url(); ?>/donate/">See them here</a>.</p>
             <p>
               Security for online donations: We use PayPal, the largest online global payment
               processor, to securely process all online donations. Don’t worry; you don’t need an
@@ -69,9 +71,9 @@
             <p>
               Of Home, Family and Future is a registered 501(c)(3) non-profit, so all donations made
               directly to the organization are tax-deductible. Our audited financials as well as our
-              501(c)(3) exemption can be found online here. Our 501(c)(3) document may not be
+              501(c)(3) exemption can be found online <a href="<?php echo home_url(); ?>/financials/">here</a>. Our 501(c)(3) document may not be
               provided to any sponsors or donors on our behalf without our written consent. If
-              you’re looking for our 990 information, please email <a href="">info@ofhome.org</a>
+              you’re looking for our 990 information, please email <a href="mailto:info@ofhome.org">info@ofhome.org</a>
             </p>
           </section>
           <section>
@@ -115,7 +117,7 @@
       <li>
         <h3>HOW DO I GET INVOLVED?</h3>
         <article>
-          We're always looking for mentors for our students and volunteers who can offer their time to help fundraise, raise awareness, and add content to our site. Interested? Sign up here.
+          We're always looking for mentors for our students and volunteers who can offer their time to help fundraise, raise awareness, and add content to our site. Interested? <a href="">Sign up here</a>.
         </article>
       </li>
       <li>
@@ -128,8 +130,8 @@
         <h3>WHO FUNDS YOU?</h3>
         <article>
           <ul>
-            <li>The Harry and Carol Goodman Estate</li>
             <li>Over the years, our grantors and corporate contributors have included:</li>
+            <li>The Harry and Carol Goodman Estate</li>
             <li>Hedge Funds Care</li>
             <li>Macy’s Foundation</li>
             <li>Maple Row Partners</li>

@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-  <div class="content">
+  <div class="content about-content">
     <article>
       <p>
         I grew up observing various forms of abuse and though I wouldn’t have admitted it then, I
@@ -60,8 +60,8 @@
         In 2004, we parted ways with the major charity that had supported “Of Home and
         Family”. With the help of energetic, generous friends who volunteered to serve as Board
         Directors and Officers, we formed our own non-profit, “Of Home, Family and Future”,
-        and, in addition to the Domestic Violence Initiative, developed an Educational
-        Mentoring Program focusing on a small number of foster care students who have been
+        and, in addition to the <a href="<?php echo home_url(); ?>/domestic-violence-initiative/">Domestic Violence Initiative</a>, developed an <a href="<?php echo home_url(); ?>/programs/">Educational
+        Mentoring Program</a> focusing on a small number of foster care students who have been
         accepted to college.
       </p>
       <p>
@@ -79,9 +79,9 @@
       <div class="about-conclude">
         <div>
           <p style="margin-bottom: 40px">
-            As little as $25 can help us do that. Please donate.
+            As little as $25 can help us do that. <a href="<?php echo home_url(); ?>/donate/">Please donate</a>.
           </p>
-          <span style="color:#662d91; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
+          <span style="color:#8cc63f; font-size:xx-large; font-weight: 600">Nancy Schulman</span>
           <br>
           <span style="font-size:x-large">President and COO</span>
         </div>
