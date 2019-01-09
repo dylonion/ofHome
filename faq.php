@@ -5,7 +5,7 @@
       <h1>FAQs</h1>
     </div>
   </div>
-  <div class="content">
+  <div class="content faq-content">
     <ol>
       <li>
         <h3>100%: WHAT DOES THAT MEAN?</h3>
@@ -117,7 +117,7 @@
       <li>
         <h3>HOW DO I GET INVOLVED?</h3>
         <article>
-          We're always looking for mentors for our students and volunteers who can offer their time to help fundraise, raise awareness, and add content to our site. Interested? <a href="">Sign up here</a>.
+          We're always looking for mentors for our students and volunteers who can offer their time to help fundraise, raise awareness, and add content to our site. Interested? <a href="<?php echo home_url(); ?>/contact-us/">Sign up here</a>.
         </article>
       </li>
       <li>

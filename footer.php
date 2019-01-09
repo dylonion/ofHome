@@ -4,7 +4,7 @@
             <div>
               <ul>
                 <li>
-                  <a href="mailto:info@ofhome.org">
+                  <a href="<?php echo home_url();?>/contact-us/">
                     <i class="fas fa-envelope"></i>
                     CONTACT US
                   </a>

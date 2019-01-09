@@ -76,7 +76,7 @@
         <li>
           <div><img src="<?php bloginfo('template_url'); ?>/assets/DVI_Financial-01.svg" /></div>
           <div>
-            <h3>FINANCIAL COUNCELING</h3>
+            <h3>FINANCIAL COUNSELING</h3>
             <p>Our volunteers assist participants with budgeting and credit-repair.</p>
           </div>
         </li>

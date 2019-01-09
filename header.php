@@ -20,12 +20,12 @@
   <?php wp_head();?>
 </head>
 
-<body>
+<body class="<?php echo $pagename; ?>">
 
   <div class="blog-masthead">
     <div class="container">
       <nav class="blog-nav">
-        <li class="page_item"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/Home_icon_3.svg"/></a></li>
+        <li class="page_item" id="home-icon-li"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/Home_icon_3.svg"/></a></li>
         <li class="page_item">
           <div class="dropdown">
             <a href="<?php echo home_url(); ?>/about-us/">About Us</a>

@@ -30,7 +30,7 @@
         understand the college environment, offers emotional support, and provides guidance on
         school and personal issues as well as spending decisions. The mentor works closely with
         us and our partner agencies. We are always looking for qualified mentors. If you are
-        interested in learning more about becoming a mentor, please contact us.
+        interested in learning more about becoming a mentor, please <a style="color:white; text-decoration:none;" href="<?php echo home_url(); ?>/contact-us">contact us</a>.
       </p>
     </div>
     <div class="initiative-overview edu-overview">

@@ -27,7 +27,7 @@
         <div style="text-align: center"><i class="far fa-heart"></i></div>
         <div style="text-align: center;">We're Here to Help.</div>
       </div>
-      <div style="flex-basis:40%">
+      <div class="blue-text" style="flex-basis:40%">
         We know that for people with the
         desire to succeed, providing
         comprehensive support can create
