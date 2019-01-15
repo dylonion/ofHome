@@ -1,6 +1,6 @@
 <?php /* Template Name: Testimonials */ ?>
 <?php get_header(); ?>
-<div class="testimonial-header">
+<div class="header testimonial-header">
   <h1>Testimonials</h1>
 </div>
 <div class="red-info" id="blue-info" style="background-color:#3fa9f5">
@@ -117,6 +117,4 @@
     <i class="fas fa-angle-down story-toggle"></i>
   </article>
 </div>
-<script src="<?php bloginfo('template_url'); ?>/jquery.js" type="text/javascript" charset="utf-8"></script>
-<script src="<?php bloginfo('template_url'); ?>/ofhome.js" type="text/javascript" charset="utf-8"></script>
 <?php get_footer(); ?>

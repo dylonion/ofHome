@@ -2,7 +2,7 @@
 <?php get_header(); ?>
   <div class="donate-header">
     <div>
-      <h1>100%</h1>
+      <h1 class="donate-h1">100%</h1>
       <h2>
         of your donations go
         straight to the people
@@ -63,7 +63,7 @@
       <div class="give-button"><a href="https://www.paypal.com/donate/?token=QEAfYhvmixz63iyVbRKKF3x_4PhgmUYGbo3tCNGgNOaidG1lT17GvQPyXC_7dbYdHmz2x0&country.x=US&locale.x=US">Donate Now</a></div>
     </div>
     <div class="give-option">
-      <h1>DONATE</h1>
+      <h1>IN HONOR OF</h1>
       <p>
         Make a donation “in
         honor of" or "in memory
@@ -72,7 +72,7 @@
       <div class="give-button"><a href="https://www.paypal.com/donate/?token=_rIAym0zHsVQT_TCff9ERmZLCPK_Qns8QJ3r5JiMKfUGgsIntyzwVch5C_ElekQKlUnpdG&country.x=US&locale.x=US">Donate Now</a></div>
     </div>
     <div class="give-option">
-      <h1>DONATE</h1>
+      <h1>CUSTOM</h1>
       <p>
         Every dollar makes a
         difference! Specify how

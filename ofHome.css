@@ -6,19 +6,143 @@
     height: 100%;
   }
 
+  .noscroll {
+    overflow: hidden;
+  }
+
 /* Nav links */
   @media only screen and (max-width:1200px) {
     h1 {
       font-size: 4em!important;
     }
   }
+  @media only screen and (min-width: 601px) {
+    .menu-toggle {
+      display: none!important;
+    }
+
+    .mobile-hide {
+      display: none!important;
+    }
+  }
+
+  .menu-toggle {
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+  }
+
+  #home-icon-li {
+    padding: 10px 0 0 10px;
+  }
+
+  #home-icon-li > a > div{
+    display: none;
+  }
 
   @media only screen and (max-width: 600px) {
+
+    .oh-slideshow li:nth-child(1) span {
+        background-image: url('./assets/Homepage_Pic_Test_72dpi.png')!important;
+    }
+
+    .oh-slideshow li:nth-child(2) span {
+        background-image: url('./assets/Homepage_Mentorship.png')!important;
+    }
+
+    .oh-slideshow li:nth-child(3) span {
+        background-image: url('./assets/Homepage_MotherSon.png')!important;
+    }
+
+    .people-header h1, .about-header h1, .faq-header h1 {
+      display:none!important;
+    }
+
+    .faq-header {
+      display: none;
+    }
+
+    .edu-header {
+      background-image: url('./assets/EMP_headerImage_mobile.png')!important;
+    }
+
+    .stories-header {
+      background-image: url('./assets/SuccessStories_headerImage_mobile.png')!important;
+    }
+
+    .initiative-header {
+      background-image: url('./assets/DVI_headerImage_mobile.png')!important;
+    }
+
+    .testimonial-header {
+      background-image: url('./assets/Testimonials_headerImage_mobile.png')!important;
+    }
+    #home-icon-li img {
+      display: none!important;
+    }
+
+    #home-icon-li div {
+      display: block!important;
+      margin-bottom: 15px;
+    }
+
+    .blog-masthead {
+      position: relative;
+      width: 100%;
+      z-index: 1;
+    }
+
+    .nav-menu {
+      text-align: left;
+      margin-top: 15px;
+    }
+
+    .dropdown-content {
+      display: block!important;
+      position: unset!important;
+      border: none!important;
+      background-color: unset!important;
+    }
+
+    .blog-nav {
+      position: relative;
+      text-align: unset!important;
+    }
+
+    .blog-nav li {
+      display: list-item!important;
+      padding:0!important;
+    }
+
+    .blog-nav li:first-of-type {
+      float: none!important;
+    }
+
+    .blog-nav li a:not(.dropdown-title-a) {
+      font-weight: 400!important;
+      font-size: 1em!important;
+    }
+    .blog-nav li:last-of-type {
+      margin-top: 15px;
+    }
+
+    .blog-nav li:last-of-type a {
+      border: 2px solid white!important;
+      padding:2px 3px!important;
+    }
+    .blog-nav img {
+      width:25px!important;
+    }
+
     .details {
       flex-direction: column!important;
     }
     .details div:nth-child(2) {
       margin: 0!important;
+    }
+
+    .header h1:not(.donate-h1) {
+      display: none;
     }
 
     h1 {
@@ -39,25 +163,9 @@
       padding: 3px!important;
     }
 
-    .blog-nav li a {
-      font-weight: 400!important;
-      font-size: 1em!important;
-    }
-    .blog-nav li:last-of-type a {
-      border: 2px solid white!important;
-      padding:2px 3px!important;
-    }
-    .blog-nav img {
-      width:25px!important;
-    }
     #stories-menu {
       left: -45px;
     }
-
-    #home-icon-li {
-      padding: 10px 0 0 10px;
-    }
-
     .success-list li {
       align-items: center!important;
       flex-direction: column!important;
@@ -73,7 +181,7 @@
     }
 
     .details div:first-of-type {
-      margin:0 0 30px 0!important;
+      margin:0 0 20px 0!important;
     }
 
     .about-header {
@@ -122,6 +230,8 @@
 
     .red-info h1 {
       max-width: 80%!important;
+      line-height: 1em!important;
+      text-align: center;
     }
 
     .stories-header i {
@@ -141,17 +251,46 @@
     }
 
     .give-grid h1 {
-      text-align: center;
+      margin: 0;
     }
 
     .give-option {
       margin-bottom: 50px;
+      align-items: flex-start;
     }
 
-    .give-button {
-      align-self:center!important;
+    .give-option p {
+      margin: 10px 0;
+      box-sizing: border-box;
+      padding: 0 20px 0 0;
+    }
+
+    .footer-links {
+      display: block!important;
+    }
+
+    .footer-links i {
+      display: none;
+    }
+
+    .title-donate {
+      line-height: 1em!important;
+    }
+
+    .dropdown-title-a {
+      font-weight: 900!important;
+      font-size: 1.25em!important;
     }
   }
+
+.mobile-hide {
+  display: inline-block;
+  position: relative;
+  left: 15px;
+  font-weight: 800;
+  font-size: 1.1em;
+  top:5px;
+}
 
 .blog-nav {
   background-color: #1ccaf9;
@@ -225,7 +364,7 @@
 
 .dropdown-content>a {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-transform: capitalize!important;
   letter-spacing: -1px;
 }
@@ -265,7 +404,7 @@
 }
 
   .nodisplay {
-    display: none;
+    display: none!important;
   }
 
   li {

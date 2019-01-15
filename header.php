@@ -25,10 +25,18 @@
   <div class="blog-masthead">
     <div class="container">
       <nav class="blog-nav">
-        <li class="page_item" id="home-icon-li"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/assets/Home_icon_3.svg"/></a></li>
+        <div class="mobile-hide"></div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <div class="nav-menu nodisplay">
+        <li class="page_item" id="home-icon-li">
+          <a href="<?php echo home_url(); ?>">
+            <img src="<?php bloginfo('template_url'); ?>/assets/Home_icon_3.svg"/>
+            <div class="dropdown-title-a">Home</div>
+          </a>
+        </li>
         <li class="page_item">
           <div class="dropdown">
-            <a href="<?php echo home_url(); ?>/about-us/">About Us</a>
+            <a class="dropdown-title-a" href="<?php echo home_url(); ?>/about-us/">About Us</a>
             <div class="dropdown-content">
               <a href="<?php echo home_url(); ?>/about-us/">Founders Story</a>
               <a href="<?php echo home_url(); ?>/board-members-executive-director/">Board Members & Executive Director</a>
@@ -38,7 +46,7 @@
         </li>
         <li class="page_item">
           <div class="dropdown">
-            <a href="<?php echo home_url(); ?>/programs/">Programs</a>
+            <a class="dropdown-title-a" href="<?php echo home_url(); ?>/programs/">Programs</a>
             <div class="dropdown-content">
               <a href="<?php echo home_url(); ?>/programs/domestic-violence-initiative/">Domestic Violence Initiative</a>
               <a href="<?php echo home_url(); ?>/programs/">Educational Mentoring Initiative</a>
@@ -47,15 +55,16 @@
         </li>
         <li class="page_item">
           <div class="dropdown">
-            <a href="<?php echo home_url(); ?>/stories/">Stories</a>
+            <a class="dropdown-title-a" href="<?php echo home_url(); ?>/stories/">Stories</a>
             <div class="dropdown-content" id="stories-menu">
               <a href="<?php echo home_url(); ?>/stories/">Success Stories</a>
               <a href="<?php echo home_url(); ?>/testimonials/">Testimonials</a>
             </div>
           </div>
         </li>
-        <li class="page_item"><a href="<?php echo home_url(); ?>/news-media/">News/Media</a></li>
-        <li class="page_item"><a href="<?php echo home_url(); ?>/donate-give/">Donate/Give</a></li>
+        <li class="page_item"><a class="dropdown-title-a" href="<?php echo home_url(); ?>/news-media/">News/Media</a></li>
+        <li class="page_item"><a class="dropdown-title-a" href="<?php echo home_url(); ?>/donate-give/">Donate/Give</a></li>
+      </div>
       </nav>
     </div>
   </div>

@@ -1,3 +1,5 @@
+    <script src="<?php bloginfo('template_url'); ?>/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="<?php bloginfo('template_url'); ?>/ofhome.js" type="text/javascript" charset="utf-8"></script>
     </div> <!-- /.container -->
         <footer>
           <div class="footer-links">

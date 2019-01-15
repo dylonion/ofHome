@@ -158,6 +158,4 @@ During Maya and her children’s 5 years in our Domestic Violence Initiative, sh
       </li>
     </ul>
   </div>
-  <script src="<?php bloginfo('template_url'); ?>/jquery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="<?php bloginfo('template_url'); ?>/ofhome.js" type="text/javascript" charset="utf-8"></script>
 <?php get_footer(); ?>
