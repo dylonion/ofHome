@@ -54,9 +54,17 @@ function checkSize() {
     $('.nav-menu').addClass('nodisplay');
     $(window).scroll(function(e){
       if($(window).scrollTop() > 0) {
-        $('.blog-masthead').css('position','fixed')
+        // $('.blog-masthead').css('position','fixed')
+        $('.blog-masthead').css({
+          'position':'fixed',
+          'top': 0
+        });
       }else{
-        $('.blog-masthead').css('position', 'relative')
+        // $('.blog-masthead').css('position', 'relative')
+        $('.blog-masthead').css({
+          'position': 'relative',
+          'top' : 'initial'
+        })
       }
       if($('.nav-menu').css('display') == 'none' && $('.menu-toggle i').hasClass('fa-times')){
         $('.fa-times').removeClass('fa-times').addClass('fa-bars')
