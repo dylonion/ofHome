@@ -39,7 +39,7 @@
         or towards tutoring for
         students.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=wGn3biMVbAo20DH4cdl5r2PNqpmCXoqgOTm6eypC71n0G-o1P4WXg2rBdY27kSlykAG3gG&country.x=US&locale.x=US">Donate Now</a></div>
+      <div class="give-button"><a href="https://www.paypal.com/donate/?token=u1mq_AtB1q5XHPSCzg-LuNjOwLonsOUHpbnzBz09XMnSVTWzq2ffylmUVh_wm8pT5umb3m&country.x=US&locale.x=US">Donate Now</a></div>
     </div>
     <div class="give-option">
       <h1>$250</h1>
@@ -49,7 +49,7 @@
         for much-needed school
         materials for students.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=mnpITpOnVBtrW2fFdkFGLaXavixdXJuKJOJDS3QoUcuF9upYN4cZ7mZ6poXnPvIm6SvEJ0&country.x=US&locale.x=US">Donate Now</a></div>
+      <div class="give-button"><a href="https://www.paypal.com/donate/?token=qkcLGXWA82a_EAvpZfBiL9pAJTjuoWKabEt1RWwXu-PKvuYUptTsb4yi0FQKwppTG2drZm&country.x=US&locale.x=US">Donate Now</a></div>
     </div>
     <div class="give-option">
       <h1>$500</h1>
@@ -60,7 +60,7 @@
         towards helping a mom
         achieve stability at home.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=QEAfYhvmixz63iyVbRKKF3x_4PhgmUYGbo3tCNGgNOaidG1lT17GvQPyXC_7dbYdHmz2x0&country.x=US&locale.x=US">Donate Now</a></div>
+      <div class="give-button"><a href="https://www.paypal.com/donate/?token=J5HkjofDaav_AVKoSJy4-3x-d2V_CP_hX_n2aK6cUHRTROq0QVy9rTop9sY13dydw6hX1G&country.x=US&locale.x=US">Donate Now</a></div>
     </div>
     <div class="give-option">
       <h1>IN HONOR OF</h1>
@@ -69,7 +69,7 @@
         honor of" or "in memory
         of” someone special.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=_rIAym0zHsVQT_TCff9ERmZLCPK_Qns8QJ3r5JiMKfUGgsIntyzwVch5C_ElekQKlUnpdG&country.x=US&locale.x=US">Donate Now</a></div>
+      <div class="give-button"><a href="https://www.paypal.com/donate/?token=KzN4bfmXJSPulw1Qw8dAkNIRyx9s9WzPIQeFClT_rVl6isAOBn_paodNwl9Aq63DwrKY6m&country.x=US&locale.x=US&Z3JncnB0=">Donate Now</a></div>
     </div>
     <div class="give-option">
       <h1>CUSTOM</h1>
@@ -79,7 +79,7 @@
         much you want to donate
         by clicking the button below.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=nFrK08-8DlJft4wGB9idmjATLO4GaBIrTrYTDuhH-h-oEzq7-uY1mF7SRtNmVYCVg6dLim&country.x=US&locale.x=US&Z3JncnB0=">Donate Now</a></div>
+      <div class="give-button"><a href="https://www.paypal.com/donate/?token=T29Ns-m6e0W_ZpegmPZ_e268z0FxuiiNyuaQopw0Mcl6dQT2myTCC4jkN0ymRhLkH2FMmm&country.x=US&locale.x=US">Donate Now</a></div>
       </div>
     </div>
   </div>
