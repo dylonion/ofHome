@@ -39,8 +39,13 @@
         or towards tutoring for
         students.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=u1mq_AtB1q5XHPSCzg-LuNjOwLonsOUHpbnzBz09XMnSVTWzq2ffylmUVh_wm8pT5umb3m&country.x=US&locale.x=US">Donate Now</a></div>
-    </div>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input name="cmd" type="hidden" value="_s-xclick">
+        <input name="hosted_button_id" type="hidden" value="NRZ4UR4MG3CBY">
+        <input class="thf" alt="PayPal - The safer, easier way to pay online!" name="submit" src="<?php bloginfo('template_url'); ?>/assets/DonateNowButton.svg" type="image">
+      </form>
+<!--       <div class="give-button"><a href="https://www.paypal.com/donate/?token=u1mq_AtB1q5XHPSCzg-LuNjOwLonsOUHpbnzBz09XMnSVTWzq2ffylmUVh_wm8pT5umb3m&country.x=US&locale.x=US">Donate Now</a></div>
+ -->    </div>
     <div class="give-option">
       <h1>$250</h1>
       <p>
@@ -49,7 +54,12 @@
         for much-needed school
         materials for students.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=qkcLGXWA82a_EAvpZfBiL9pAJTjuoWKabEt1RWwXu-PKvuYUptTsb4yi0FQKwppTG2drZm&country.x=US&locale.x=US">Donate Now</a></div>
+      <!--<div class="give-button"><a href="https://www.paypal.com/donate/?token=qkcLGXWA82a_EAvpZfBiL9pAJTjuoWKabEt1RWwXu-PKvuYUptTsb4yi0FQKwppTG2drZm&country.x=US&locale.x=US">Donate Now</a></div>-->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input name="cmd" type="hidden" value="_s-xclick">
+        <input name="hosted_button_id" type="hidden" value="SSGELXYMVRXM2">
+        <input class="th" alt="PayPal - The safer, easier way to pay online!" name="submit" src="<?php bloginfo('template_url'); ?>/assets/DonateNowButton.svg" type="image">
+      </form>
     </div>
     <div class="give-option">
       <h1>$500</h1>
@@ -60,7 +70,12 @@
         towards helping a mom
         achieve stability at home.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=J5HkjofDaav_AVKoSJy4-3x-d2V_CP_hX_n2aK6cUHRTROq0QVy9rTop9sY13dydw6hX1G&country.x=US&locale.x=US">Donate Now</a></div>
+      <!-- <div class="give-button"><a href="https://www.paypal.com/donate/?token=J5HkjofDaav_AVKoSJy4-3x-d2V_CP_hX_n2aK6cUHRTROq0QVy9rTop9sY13dydw6hX1G&country.x=US&locale.x=US">Donate Now</a></div> -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input name="cmd" type="hidden" value="_s-xclick">
+        <input name="hosted_button_id" type="hidden" value="S8TBXWFHEP6XQ">
+        <input class="fh" alt="PayPal - The safer, easier way to pay online!" name="submit" src="<?php bloginfo('template_url'); ?>/assets/DonateNowButton.svg" type="image">
+      </form>
     </div>
     <div class="give-option">
       <h1>IN HONOR OF</h1>
@@ -69,7 +84,12 @@
         honor of" or "in memory
         of” someone special.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=KzN4bfmXJSPulw1Qw8dAkNIRyx9s9WzPIQeFClT_rVl6isAOBn_paodNwl9Aq63DwrKY6m&country.x=US&locale.x=US&Z3JncnB0=">Donate Now</a></div>
+      <!-- <div class="give-button"><a href="https://www.paypal.com/donate/?token=KzN4bfmXJSPulw1Qw8dAkNIRyx9s9WzPIQeFClT_rVl6isAOBn_paodNwl9Aq63DwrKY6m&country.x=US&locale.x=US&Z3JncnB0=">Donate Now</a></div> -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input name="cmd" type="hidden" value="_s-xclick">
+        <input name="hosted_button_id" type="hidden" value="AARAW8RYL2BDJ">
+        <input class="dh" alt="PayPal - The safer, easier way to pay online!" name="submit" src="<?php bloginfo('template_url'); ?>/assets/DonateNowButton.svg" type="image">
+      </form>
     </div>
     <div class="give-option">
       <h1>CUSTOM</h1>
@@ -79,7 +99,12 @@
         much you want to donate
         by clicking the button below.
       </p>
-      <div class="give-button"><a href="https://www.paypal.com/donate/?token=T29Ns-m6e0W_ZpegmPZ_e268z0FxuiiNyuaQopw0Mcl6dQT2myTCC4jkN0ymRhLkH2FMmm&country.x=US&locale.x=US">Donate Now</a></div>
+      <!-- <div class="give-button"><a href="https://www.paypal.com/donate/?token=T29Ns-m6e0W_ZpegmPZ_e268z0FxuiiNyuaQopw0Mcl6dQT2myTCC4jkN0ymRhLkH2FMmm&country.x=US&locale.x=US">Donate Now</a></div> -->
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input name="cmd" type="hidden" value="_s-xclick">
+        <input name="hosted_button_id" type="hidden" value="LD3WBAPAFSNDL">
+        <input class="tf" alt="PayPal - The safer, easier way to pay online!" name="submit" src="<?php bloginfo('template_url'); ?>/assets/DonateNowButton.svg" type="image">
+      </form>
       </div>
     </div>
   </div>
