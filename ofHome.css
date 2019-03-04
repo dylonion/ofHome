@@ -6,6 +6,10 @@
     height: 100%;
   }
 
+  input[type="image"] {
+    width: 145px;
+  }
+
   .noscroll {
     overflow: hidden;
   }

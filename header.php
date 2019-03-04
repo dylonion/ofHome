@@ -49,7 +49,7 @@
             <a class="dropdown-title-a" href="<?php echo home_url(); ?>/programs/">Programs</a>
             <div class="dropdown-content">
               <a href="<?php echo home_url(); ?>/programs/domestic-violence-initiative/">Domestic Violence Initiative</a>
-              <a href="<?php echo home_url(); ?>/programs/">Educational Mentoring Initiative</a>
+              <a href="<?php echo home_url(); ?>/programs/">Educational Mentoring Program</a>
             </div>
           </div>
         </li>
