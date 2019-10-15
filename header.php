@@ -30,7 +30,7 @@
         <div class="nav-menu nodisplay">
         <li class="page_item" id="home-icon-li">
           <a href="<?php echo home_url(); ?>">
-            <img src="<?php bloginfo('template_url'); ?>/assets/Home_icon_3.svg"/>
+            <img src="<?php bloginfo('template_url'); ?>/assets/OfHome_Logo_Black_Short-01.png"/>
             <div class="dropdown-title-a">Home</div>
           </a>
         </li>
